@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+html {
+    height: 100%;
+  }
+
+body {
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #f7ff85;
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+input, button {
+    font-size: 16px;
+    text-align: center;
+    background: #1A1A1A;
+    height: 25px;
+    width: 350px;
+    border-radius: 12px;
+    border: none;
+    color: #A2A2A2;
+    padding: 6px 6px 6px 12px;
+    outline: none;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%);
+  }
+
+button {
+    height: 40px;
+    width: 40px; 
+    padding: 3px 3px 3px 5px;
+    cursor: pointer;
+  }
+
+p {
+    font-size: 30px;
+    color: aliceblue;
+    border: 50px;
+}
+
+span {
+    color:#A2A2A2;
+    
+}
+
+.button-1{
+    background-color: red;
+    border: none;
+    border-radius: 1.5em;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-2{
+    background-color: green;
+    border: none;
+    border-radius: 1.5em;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+}
